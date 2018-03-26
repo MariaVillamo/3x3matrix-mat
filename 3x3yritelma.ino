@@ -18,11 +18,9 @@ int erotus8;
 int erotus9;
 
 void setup()  {  
-  //pinMode(LED_BUILTIN, OUTPUT);
   pinMode(digital2, OUTPUT);
   pinMode(digital3, OUTPUT);
   pinMode(digital4, OUTPUT);
-  //digitalWrite(LED_BUILTIN, LOW);
   Serial.begin(9600);
 }
 
